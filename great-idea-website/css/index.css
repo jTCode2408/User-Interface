@@ -50,8 +50,11 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
+	margin:0;
+	padding:0;
 	max-width:100%;
 }
+
 
 html, body {
     height: 100%;
@@ -63,11 +66,55 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Your code starts here! */
+.container{
+	border:3px solid gray;
+	margin:5%;
+}
 nav{
-	text-align:center;
+	text-align: center;
 }
 nav a{
-margin: 10%;
+margin: 4%;
+display:inline-block
+}
+h1{
+	text-align:center;
+	margin-right:50%;
+	font-size: 60px;
+	padding:5%;
+	display:inline;
+	line-height:50px;
+	letter-spacing:2px;
+}
+button{
+	height:40px;
+	weight:60px;
+	border 2px solid black;
+}
+.top{
+	display:inline
+	
+}
+.img{
+	display:inline;
+	position:absolute;
+    width:300px;
+}
+.about{
+	weight: 50%;
+	height:25%;
+}
+title{
+	width:20%;
+	height:20%;
+	margin:10%;
+}
+.img-middle{
+display:inline-block;
+margin:10%;
+width:200%
+}
+.features{
+	weight:100px;
+	height:100px;
 }
