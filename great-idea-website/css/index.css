@@ -50,6 +50,10 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	max-width:100%;
+	max-height:100%;
 }
 
 html, body {
@@ -71,6 +75,7 @@ h1, h2, h3, h4, h5 {
 }
 nav{
 	text-align: center;
+	height:10px;
 }
 nav a{
 margin-top: 2%;
@@ -80,89 +85,140 @@ display:inline;
 float:left;
 }
 .logo{
-	border:5px solid black;
+	
 	width:20%;
-	display:inline;
-	float: right;
-	margin-top:2%;
+	display:inline-block;
+
 	
 }
-.top{
-  height:100%;
-  width:100%;
-   border:3px solid red;
-margin: 0 auto;
+#top {
 
+    height:50%;
+	width:100%;
+	display:inline-block;
+}
 
+.header{
+
+width:40%;;
+height:100%;
+display:inline-block;
+vertical-align: center;
 }
 
 h1{
-	height:80%;
-	width:40%;
-	font-size: 120px;
+
+	font-size:105px;
+	margin: 5%;
+	padding:5%;
 	display:inline-block;
-border:2px solid purple;
- text-align:center;
- float:left;
+	width:50%;
+	padding:10px;
 
 }
+
 .codepic{
-	border: 2px solid blue;
 	width:40%;
 	display:inline-block;
-	height: 80%;
-	float:right;
-	
+margin:3px;
+padding:10px;
 
 }
+
 button{
 	background-color:white;
 	border:1px solid grey;
-	width:15%;
-	height:15%;
-	display:inline;
-    
+	width:30%;
+	height:20%;
+	display:block;
+	margin:10px;
+	vertical-align: center;
+	margin-left:40px;
 }
 #middle{
-	border: 2px solid green;
+	margin-top:40px;
  height:50%;
- width:100%;
+ width:90%;
+	margin-left:5px;
+	margin-right:5px;
 }
+
 .features{
-	border: 2px solid pink;
+	margin-top:20px;
 	display:inline-block;
-	float:left;
-	height:50px;
-	width:100px;
+	height:100%;
+	width:40%;
+	margin-left:5px;
+	
 }
 .about{
-	border: 2px solid brown;
+    
 	display:inline-block;
-	float:right;
-	width:100px;
-	height:100px;
+	width:40%;
+	height:100%;
+	margin-top:20px;
+	
 
 }
 .middle-img{
-	border: 3px solid black;
+	
+	width:90%;
+	padding:5px;
 }
 #bottom{
-	border:3px solid orange;
+	
+	width:90%;
+	height:50%;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:40px;
 }
 .services{
-	border:2px solid gray;
+	
+	display:inline-block;
+	width:33%;
+	height:100%;
+	margin-top:20px;
+	
 }
 
 .product{
-	border: 2px solid turquoise;
+	
+	display:inline-block;
+	width:33%;
+	height:100%;
+	margin-top:20px;
+
 }
 
+
 .vision{
-	border: 2px solid peru;
+	
+	display:inline-block;
+	width:33%;
+	height:100%;
+	margin-top:20px;
 
 }
 .contact{
-	border:2px solid royalblue;
+	border-top:2px solid black;
+	display:block;
+	width:90%;
+	height:50%;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+.contact h3{
+	margin-top:20px;
+}
+.contact p{
+	text-align:center;
+	padding:20px 0;
+}
+
+.contact address{
+	line-height: 2;
 }
 
 
