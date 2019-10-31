@@ -13,7 +13,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, header,A3 hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -49,12 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-	max-width:100%;
+	box-sizing:border-box;
 }
-
 
 html, body {
     height: 100%;
@@ -66,55 +62,107 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.container{
+.container {
 	border:3px solid gray;
-	margin:5%;
+	height:100%;
+	width:100%;
+
+
 }
 nav{
 	text-align: center;
 }
 nav a{
-margin: 4%;
-display:inline-block
+margin-top: 2%;
+margin-left:4%;
+margin-right:4%;
+display:inline;
+float:left;
 }
-h1{
-	text-align:center;
-	margin-right:50%;
-	font-size: 60px;
-	padding:5%;
+.logo{
+	border:5px solid black;
+	width:20%;
 	display:inline;
-	line-height:50px;
-	letter-spacing:2px;
-}
-button{
-	height:40px;
-	weight:60px;
-	border 2px solid black;
-}
-.top{
-	display:inline
+	float: right;
+	margin-top:2%;
 	
 }
-.img{
+.top{
+  height:100%;
+  width:100%;
+   border:3px solid red;
+margin: 0 auto;
+
+
+}
+
+h1{
+	height:80%;
+	width:40%;
+	font-size: 120px;
+	display:inline-block;
+border:2px solid purple;
+ text-align:center;
+ float:left;
+
+}
+.codepic{
+	border: 2px solid blue;
+	width:40%;
+	display:inline-block;
+	height: 80%;
+	float:right;
+	
+
+}
+button{
+	background-color:white;
+	border:1px solid grey;
+	width:15%;
+	height:15%;
 	display:inline;
-	position:absolute;
-    width:300px;
+    
 }
-.about{
-	weight: 50%;
-	height:25%;
-}
-title{
-	width:20%;
-	height:20%;
-	margin:10%;
-}
-.img-middle{
-display:inline-block;
-margin:10%;
-width:200%
+#middle{
+	border: 2px solid green;
+ height:50%;
+ width:100%;
 }
 .features{
-	weight:100px;
-	height:100px;
+	border: 2px solid pink;
+	display:inline-block;
+	float:left;
+	height:50px;
+	width:100px;
 }
+.about{
+	border: 2px solid brown;
+	display:inline-block;
+	float:right;
+	width:100px;
+	height:100px;
+
+}
+.middle-img{
+	border: 3px solid black;
+}
+#bottom{
+	border:3px solid orange;
+}
+.services{
+	border:2px solid gray;
+}
+
+.product{
+	border: 2px solid turquoise;
+}
+
+.vision{
+	border: 2px solid peru;
+
+}
+.contact{
+	border:2px solid royalblue;
+}
+
+
